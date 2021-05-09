@@ -71,6 +71,12 @@ h3 {
   -webkit-appearance: none;
   border-radius: 0;
   }
+
+  @media screen and (-webkit-min-device-pixel-ratio:0) { 
+    input {
+      font-size: 14px;
+    }
+  }
 .btn {
   color: #fff;
   border: none;
@@ -89,8 +95,9 @@ h3 {
 }
 
 .container {
-  margin-left: 10px;
-  margin-right: 10px;
+  border-radius: 10px;
+ padding: 12px;
+  border: 2px solid gray;
 }
 
 .box {
