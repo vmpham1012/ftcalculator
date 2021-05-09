@@ -25,6 +25,10 @@ a {
 .content {
   padding: 7rem 0; }
 
+  p{
+    color: black
+  }
+
 h2 {
   font-size: 3.5rem;
   font-weight: 700; }
@@ -66,7 +70,7 @@ h3 {
   textarea,
   input.text,
   input.number,
-  input[type="number"],
+  input[type="text"],
   input[type="button"],
   input[type="submit"],
   input[type="reset"],
@@ -77,12 +81,12 @@ h3 {
 
   @media screen and (-webkit-min-device-pixel-ratio:0) { 
     input {
-      font-size: 16px;
+      font-size:16px;
     }
   }
 
   @media screen and (device-aspect-ratio: 9/16) {
-    input[type="number"]{ font-size: 16px; }
+    input[type="text"]{ font-size: 16px; }
 }
 .btn {
   color: #fff;

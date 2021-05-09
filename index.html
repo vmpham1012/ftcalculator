@@ -32,21 +32,21 @@
             
             <div class="col-md-6 form-group">
               <label for="stoplost" class="col-form-label">Stop Loss</label>
-              <input type="number" class="form-control" name="stoplost" id="stoplost" placeholder="Stop loss">
+              <input inputmode="numeric" pattern="[0-9]*" type="text" class="form-control" name="stoplost" id="stoplost" placeholder="Stop loss">
             </div>
             <div class="col-md-6 form-group">
               <label for="takeprofit" class="col-form-label">Take Profit</label>
-              <input type="number" class="form-control" name="takeprofit" id="takeprofit" placeholder="Take Profit">
+              <input inputmode="numeric" pattern="[0-9]*" type="text" class="form-control" name="takeprofit" id="takeprofit" placeholder="Take Profit">
             </div>
           </div>
           <div class="row">
             <div class="col-md-6 form-group">
               <label for="targeted" class="col-form-label">Target Risk %</label>
-              <input type="number" class="form-control" name="targeted" id="targeted" placeholder="Decimal number">
+              <input inputmode="numeric" pattern="[0-9]*" type="text" class="form-control" name="targeted" id="targeted" placeholder="Decimal number">
             </div>
             <div class="col-md-6 form-group">
-              <label for="balance" class="col-form-label">Account Balance</label>
-              <input type="number" class="form-control" name="balance" id="balance" placeholder="$ amount in account">
+              <label for="balance" class="col-form-label">Acc. Amount</label>
+              <input inputmode="numeric" pattern="[0-9]*" type="text" class="form-control" name="balance" id="balance" placeholder="$ Amount in account">
             </div>
           </div>
           <div style="margin-top:30px;text-align: center;">
@@ -83,7 +83,9 @@
         </div>
         
       </nav>
+      <p>© 2021 Valerie Pham</p>
     </div>
+   
     </main>
     <script src="js/app.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>

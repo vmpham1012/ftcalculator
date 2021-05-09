@@ -13,17 +13,13 @@
 
 // Adds a listener for the "submit" event.
 form.addEventListener('submit', function(e) {
-
   e.preventDefault();
-
 });
 var form = document.getElementById('tradingForm');
 
 // Adds a listener for the "submit" event.
 form.addEventListener('reset', function(e) {
-
   $("#result").removeClass("card")
-
 });
 
   $(function(t) {
