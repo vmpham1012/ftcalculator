@@ -60,6 +60,17 @@ h3 {
   text-transform: uppercase;
   font-weight: 400; }
 
+  textarea,
+  input.text,
+  input.number,
+  input[type="number"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  .input-checkbox {
+  -webkit-appearance: none;
+  border-radius: 0;
+  }
 .btn {
   color: #fff;
   border: none;
